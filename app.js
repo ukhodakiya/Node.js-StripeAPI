@@ -1,8 +1,8 @@
 // publish key : pk_test_yDa5Ew4gZYXaGcCKumAy0NaB00zXM38NLQ
-// secret key : sk_test_zk7iNz1Ey8jumh5MPIYIj1GO00BbxqciJg
+// secret key : Your secret Key
 const express = require("express");
 
-const stripe = require("stripe")("sk_test_zk7iNz1Ey8jumh5MPIYIj1GO00BbxqciJg");
+const stripe = require("stripe")("Your secret Key");
 
 const exphbs = require("express-handlebars");
 const bodyParser = require("body-parser");
